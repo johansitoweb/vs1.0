@@ -1,0 +1,1911 @@
+
+
+
+/*
+[colores]:{
+
+    color-primary
+    color-second
+    color-third
+    color-verd
+    color-violet
+    color-white
+    color-red
+    color-grid
+    color-black
+    color-orange
+    color-blue
+    color-blueviolet
+
+}*/
+:root{
+    /*colores*/
+    --color-primary:rgb(0, 248, 248);
+    --color-second:rgba(201, 205, 201, 0.855);
+    --color-third:rgb(205, 255, 7);
+    --color-verd:rgb(5, 254, 5);
+    --color-violet:rgb(245, 9, 245);
+    --color-white:white;
+    --color-red:rgb(255, 0, 0);
+    --color-grid:rgb(121, 122, 121);
+    --color-black:black;
+    --color-orange:orange;
+    --color-blue:blue;
+    --color-blueviolet:rgb(125, 8, 234);
+}
+
+/*
+[colores-suaves]{
+    color-primary-suav
+    color-second-suav
+    color-third-suav
+    color-verd-suav
+    color-violet-suav
+    color-white-suav
+    color-red-suav
+    color-grid-suav
+    color-black-suav
+    color-orange-suav
+    color-blue-suav
+    color-blueviolet-suav
+}
+
+[colore-difuminados o mesclas de colores]
+
+*/
+
+
+
+
+
+
+
+/*
+<!-----
+****************************************************************************************
+*                                                                                      *
+*                                                                                      *   
+*        Este es un framewok                                                           *
+*                                                                                      * 
+*                                                                                      *
+*                                                                                  *
+*              de                                                                *
+*                                                                               *
+*             css                                                                     *
+*                                                                                        *
+*                                                                                        *
+*                                                                                        *
+*                                                                                        *
+******************************************************************************************
+
+----->
+*/
+/*ancho*/
+/* Clases para anchos */
+.w-1px {
+    width: 1px;
+}
+
+.w-2px {
+    width: 2px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-200px */
+.w-3px {
+    width: 3px;
+}
+
+.w-4px {
+    width: 4px;
+}
+
+.w-5px {
+    width: 5px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-200px */
+.w-6px {
+    width: 6px;
+}
+
+.w-7px {
+    width: 7px;
+}
+
+.w-8px {
+    width: 8px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-200px */
+.w-9px {
+    width: 9px;
+}
+
+.w-10px {
+    width: 10px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-200px */
+/* y así sucesivamente hasta llegar a w-200px */
+.w-190px {
+    width: 190px;
+}
+
+.w-191px {
+    width: 191px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-200px */
+.w-192px {
+    width: 192px;
+}
+
+.w-193px {
+    width: 193px;
+}
+
+.w-194px {
+    width: 194px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-200px */
+.w-195px {
+    width: 195px;
+}
+
+.w-196px {
+    width: 196px;
+}
+
+.w-197px {
+    width: 197px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-200px */
+.w-198px {
+    width: 198px;
+}
+
+.w-199px {
+    width: 199px;
+}
+
+.w-200px {
+    width: 200px;
+}
+
+/* Clases para anchos */
+/* Continúa desde w-201px hasta w-400px */
+.w-201px {
+    width: 201px;
+}
+
+.w-202px {
+    width: 202px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-400px */
+.w-203px {
+    width: 203px;
+}
+
+.w-204px {
+    width: 204px;
+}
+
+.w-205px {
+    width: 205px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-400px */
+.w-206px {
+    width: 206px;
+}
+
+.w-207px {
+    width: 207px;
+}
+
+.w-208px {
+    width: 208px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-400px */
+.w-209px {
+    width: 209px;
+}
+
+.w-210px {
+    width: 210px;
+}
+
+/* Continúa añadiendo clases de anchos de uno en uno hasta w-400px */
+/* y así sucesivamente hasta w-400px */
+.w-400px {
+    width: 400px;
+}
+
+
+
+/*alto*/
+.h-1px {
+    height: 1px;
+}
+
+.h-2px {
+    height: 2px;
+}
+
+.h-3px {
+    height: 3px;
+}
+
+.h-4px {
+    height: 4px;
+}
+
+.h-5px {
+    height: 5px;
+}
+
+.h-6px {
+    height: 6px;
+}
+
+.h-7px {
+    height: 7px;
+}
+
+.h-8px {
+    height: 8px;
+}
+
+.h-9px {
+    height: 9px;
+}
+
+.h-10px {
+    height: 10px;
+}
+
+.h-11px {
+    height: 11px;
+}
+
+.h-12px {
+    height: 12px;
+}
+
+.h-13px {
+    height: 13px;
+}
+
+.h-14px {
+    height: 14px;
+}
+
+.h-15px {
+    height: 15px;
+}
+
+.h-16px {
+    height: 16px;
+}
+
+.h-17px {
+    height: 17px;
+}
+
+.h-18px {
+    height: 18px;
+}
+
+.h-19px {
+    height: 19px;
+}
+
+.h-20px {
+    height: 20px;
+}
+
+.h-21px {
+    height: 21px;
+}
+
+.h-22px {
+    height: 22px;
+}
+
+.h-23px {
+    height: 23px;
+}
+
+.h-24px {
+    height: 24px;
+}
+
+.h-25px {
+    height: 25px;
+}
+
+.h-26px {
+    height: 26px;
+}
+
+.h-27px {
+    height: 27px;
+}
+
+.h-28px {
+    height: 28px;
+}
+
+.h-29px {
+    height: 29px;
+}
+
+.h-30px {
+    height: 30px;
+}
+
+.h-31px {
+    height: 31px;
+}
+
+.h-32px {
+    height: 32px;
+}
+
+.h-33px {
+    height: 33px;
+}
+
+.h-34px {
+    height: 34px;
+}
+
+.h-35px {
+    height: 35px;
+}
+
+.h-36px {
+    height: 36px;
+}
+
+.h-37px {
+    height: 37px;
+}
+
+.h-38px {
+    height: 38px;
+}
+
+.h-39px {
+    height: 39px;
+}
+
+.h-40px {
+    height: 40px;
+}
+
+.h-41px {
+    height: 41px;
+}
+
+.h-42px {
+    height: 42px;
+}
+
+.h-43px {
+    height: 43px;
+}
+
+.h-44px {
+    height: 44px;
+}
+
+.h-45px {
+    height: 45px;
+}
+
+.h-46px {
+    height: 46px;
+}
+
+.h-47px {
+    height: 47px;
+}
+
+.h-48px {
+    height: 48px;
+}
+
+.h-49px {
+    height: 49px;
+}
+
+.h-50px {
+    height: 50px;
+}
+
+.h-51px {
+    height: 51px;
+}
+
+.h-52px {
+    height: 52px;
+}
+
+.h-53px {
+    height: 53px;
+}
+
+.h-54px {
+    height: 54px;
+}
+
+.h-55px {
+    height: 55px;
+}
+
+.h-56px {
+    height: 56px;
+}
+
+.h-57px {
+    height: 57px;
+}
+
+.h-58px {
+    height: 58px;
+}
+
+.h-59px {
+    height: 59px;
+}
+
+.h-60px {
+    height: 60px;
+}
+
+.h-61px {
+    height: 61px;
+}
+
+.h-62px {
+    height: 62px;
+}
+
+.h-63px {
+    height: 63px;
+}
+
+.h-64px {
+    height: 64px;
+}
+
+.h-65px {
+    height: 65px;
+}
+
+.h-66px {
+    height: 66px;
+}
+
+.h-67px {
+    height: 67px;
+}
+
+.h-68px {
+    height: 68px;
+}
+
+.h-69px {
+    height: 69px;
+}
+
+.h-70px {
+    height: 70px;
+}
+
+.h-71px {
+    height: 71px;
+}
+
+.h-72px {
+    height: 72px;
+}
+
+.h-73px {
+    height: 73px;
+}
+
+.h-74px {
+    height: 74px;
+}
+
+.h-75px {
+    height: 75px;
+}
+
+.h-76px {
+    height: 76px;
+}
+
+.h-77px {
+    height: 77px;
+}
+
+.h-78px {
+    height: 78px;
+}
+
+.h-79px {
+    height: 79px;
+}
+
+.h-80px {
+    height: 80px;
+}
+
+.h-81px {
+    height: 81px;
+}
+
+.h-82px {
+    height: 82px;
+}
+
+.h-83px {
+    height: 83px;
+}
+
+.h-84px {
+    height: 84px;
+}
+
+.h-85px {
+    height: 85px;
+}
+
+.h-86px {
+    height: 86px;
+}
+
+.h-87px {
+    height: 87px;
+}
+
+.h-88px {
+    height: 88px;
+}
+
+.h-89px {
+    height: 89px;
+}
+
+.h-90px {
+    height: 90px;
+}
+
+.h-91px {
+    height: 91px;
+}
+
+.h-92px {
+    height: 92px;
+}
+
+.h-93px {
+    height: 93px;
+}
+
+.h-94px {
+    height: 94px;
+}
+
+.h-95px {
+    height: 95px;
+}
+
+.h-96px {
+    height: 96px;
+}
+
+.h-97px {
+    height: 97px;
+}
+
+.h-98px {
+    height: 98px;
+}
+
+.h-99px {
+    height: 99px;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.h-101px {
+    height: 101px;
+}
+
+.h-102px {
+    height: 102px;
+}
+
+.h-103px {
+    height: 103px;
+}
+
+.h-104px {
+    height: 104px;
+}
+
+.h-105px {
+    height: 105px;
+}
+
+.h-106px {
+    height: 106px;
+}
+
+.h-107px {
+    height: 107px;
+}
+
+.h-108px {
+    height: 108px;
+}
+
+.h-109px {
+    height: 109px;
+}
+
+.h-110px {
+    height: 110px;
+}
+
+.h-111px {
+    height: 111px;
+}
+
+.h-112px {
+    height: 112px;
+}
+
+.h-113px {
+    height: 113px;
+}
+
+.h-114px {
+    height: 114px;
+}
+
+.h-115px {
+    height: 115px;
+}
+
+.h-116px {
+    height: 116px;
+}
+
+.h-117px {
+    height: 117px;
+}
+
+.h-118px {
+    height: 118px;
+}
+
+.h-119px {
+    height: 119px;
+}
+
+.h-120px {
+    height: 120px;
+}
+
+.h-121px {
+    height: 121px;
+}
+
+.h-122px {
+    height: 122px;
+}
+
+.h-123px {
+    height: 123px;
+}
+
+.h-124px {
+    height: 124px;
+}
+
+.h-125px {
+    height: 125px;
+}
+
+.h-126px {
+    height: 126px;
+}
+
+.h-127px {
+    height: 127px;
+}
+
+.h-128px {
+    height: 128px;
+}
+
+.h-129px {
+    height: 129px;
+}
+
+.h-130px {
+    height: 130px;
+}
+
+.h-131px {
+    height: 131px;
+}
+
+.h-132px {
+    height: 132px;
+}
+
+.h-133px {
+    height: 133px;
+}
+
+.h-134px {
+    height: 134px;
+}
+
+.h-135px {
+    height: 135px;
+}
+
+.h-136px {
+    height: 136px;
+}
+
+.h-137px {
+    height: 137px;
+}
+
+.h-138px {
+    height: 138px;
+}
+
+.h-139px {
+    height: 139px;
+}
+
+.h-140px {
+    height: 140px;
+}
+
+.h-141px {
+    height: 141px;
+}
+
+.h-142px {
+    height: 142px;
+}
+
+.h-143px {
+    height: 143px;
+}
+
+.h-144px {
+    height: 144px;
+}
+
+.h-145px {
+    height: 145px;
+}
+
+.h-146px {
+    height: 146px;
+}
+
+.h-147px {
+    height: 147px;
+}
+
+.h-148px {
+    height: 148px;
+}
+
+.h-149px {
+    height: 149px;
+}
+
+.h-150px {
+    height: 150px;
+}
+
+.h-151px {
+    height: 151px;
+}
+
+.h-152px {
+    height: 152px;
+}
+
+.h-153px {
+    height: 153px;
+}
+
+.h-154px {
+    height: 154px;
+}
+
+.h-155px {
+    height: 155px;
+}
+
+.h-156px {
+    height: 156px;
+}
+
+.h-157px {
+    height: 157px;
+}
+
+.h-158px {
+    height: 158px;
+}
+
+.h-159px {
+    height: 159px;
+}
+
+.h-160px {
+    height: 160px;
+}
+
+.h-161px {
+    height: 161px;
+}
+
+.h-162px {
+    height: 162px;
+}
+
+.h-163px {
+    height: 163px;
+}
+
+.h-164px {
+    height: 164px;
+}
+
+.h-165px {
+    height: 165px;
+}
+
+.h-166px {
+    height: 166px;
+}
+
+.h-167px {
+    height: 167px;
+}
+
+.h-168px {
+    height: 168px;
+}
+
+.h-169px {
+    height: 169px;
+}
+
+.h-170px {
+    height: 170px;
+}
+
+.h-171px {
+    height: 171px;
+}
+
+.h-172px {
+    height: 172px;
+}
+
+.h-173px {
+    height: 173px;
+}
+
+.h-174px {
+    height: 174px;
+}
+
+.h-175px {
+    height: 175px;
+}
+
+.h-176px {
+    height: 176px;
+}
+
+.h-177px {
+    height: 177px;
+}
+
+.h-178px {
+    height: 178px;
+}
+
+.h-179px {
+    height: 179px;
+}
+
+.h-180px {
+    height: 180px;
+}
+
+.h-181px {
+    height: 181px;
+}
+
+.h-182px {
+    height: 182px;
+}
+
+.h-183px {
+    height: 183px;
+}
+
+.h-184px {
+    height: 184px;
+}
+
+.h-185px {
+    height: 185px;
+}
+
+.h-186px {
+    height: 186px;
+}
+
+.h-187px {
+    height: 187px;
+}
+
+.h-188px {
+    height: 188px;
+}
+
+.h-189px {
+    height: 189px;
+}
+
+.h-190px {
+    height: 190px;
+}
+
+
+.h-191px {
+    height: 191px;
+}
+
+.h-192px {
+    height: 192px;
+}
+
+.h-193px {
+    height: 193px;
+}
+
+.h-194px {
+    height: 194px;
+}
+
+.h-195px {
+    height: 195px;
+}
+
+.h-196px {
+    height: 196px;
+}
+
+.h-197px {
+    height: 197px;
+}
+
+.h-198px {
+    height: 198px;
+}
+
+.h-199px {
+    height: 199px;
+}
+
+.h-200px {
+    height: 200px;
+}
+
+.h-201px {
+    height: 201px;
+}
+
+.h-202px {
+    height: 202px;
+}
+
+.h-203px {
+    height: 203px;
+}
+
+.h-204px {
+    height: 204px;
+}
+
+.h-205px {
+    height: 205px;
+}
+
+.h-206px {
+    height: 206px;
+}
+
+.h-207px {
+    height: 207px;
+}
+
+.h-208px {
+    height: 208px;
+}
+
+.h-209px {
+    height: 209px;
+}
+
+.h-210px {
+    height: 210px;
+}
+
+.h-211px {
+    height: 211px;
+}
+
+.h-212px {
+    height: 212px;
+}
+
+.h-213px {
+    height: 213px;
+}
+
+.h-214px {
+    height: 214px;
+}
+
+.h-215px {
+    height: 215px;
+}
+
+.h-216px {
+    height: 216px;
+}
+
+.h-217px {
+    height: 217px;
+}
+
+.h-218px {
+    height: 218px;
+}
+
+.h-219px {
+    height: 219px;
+}
+
+.h-220px {
+    height: 220px;
+}
+
+.h-221px {
+    height: 221px;
+}
+
+.h-222px {
+    height: 222px;
+}
+
+.h-223px {
+    height: 223px;
+}
+
+.h-224px {
+    height: 224px;
+}
+
+.h-225px {
+    height: 225px;
+}
+
+.h-226px {
+    height: 226px;
+}
+
+.h-227px {
+    height: 227px;
+}
+
+.h-228px {
+    height: 228px;
+}
+
+.h-229px {
+    height: 229px;
+}
+
+.h-230px {
+    height: 230px;
+}
+
+.h-231px {
+    height: 231px;
+}
+
+.h-232px {
+    height: 232px;
+}
+
+.h-233px {
+    height: 233px;
+}
+
+.h-234px {
+    height: 234px;
+}
+
+.h-235px {
+    height: 235px;
+}
+
+.h-236px {
+    height: 236px;
+}
+
+.h-237px {
+    height: 237px;
+}
+
+.h-238px {
+    height: 238px;
+}
+
+.h-239px {
+    height: 239px;
+}
+
+.h-240px {
+    height: 240px;
+}
+
+.h-241px {
+    height: 241px;
+}
+
+.h-242px {
+    height: 242px;
+}
+
+.h-243px {
+    height: 243px;
+}
+
+.h-244px {
+    height: 244px;
+}
+
+.h-245px {
+    height: 245px;
+}
+
+.h-246px {
+    height: 246px;
+}
+
+.h-247px {
+    height: 247px;
+}
+
+.h-248px {
+    height: 248px;
+}
+
+.h-249px {
+    height: 249px;
+}
+
+.h-250px {
+    height: 250px;
+}
+
+.h-251px {
+    height: 251px;
+}
+
+.h-252px {
+    height: 252px;
+}
+
+.h-253px {
+    height: 253px;
+}
+
+.h-254px {
+    height: 254px;
+}
+
+.h-255px {
+    height: 255px;
+}
+
+.h-256px {
+    height: 256px;
+}
+
+.h-257px {
+    height: 257px;
+}
+
+.h-258px {
+    height: 258px;
+}
+
+.h-259px {
+    height: 259px;
+}
+
+.h-260px {
+    height: 260px;
+}
+
+.h-261px {
+    height: 261px;
+}
+
+.h-262px {
+    height: 262px;
+}
+
+.h-263px {
+    height: 263px;
+}
+
+.h-264px {
+    height: 264px;
+}
+
+.h-265px {
+    height: 265px;
+}
+
+.h-266px {
+    height: 266px;
+}
+
+.h-267px {
+    height: 267px;
+}
+
+.h-268px {
+    height: 268px;
+}
+
+.h-269px {
+    height: 269px;
+}
+
+.h-270px {
+    height: 270px;
+}
+
+/*texto centelizado*/
+.text-center{
+    align-items: center;
+}
+
+
+
+.text-center-espei{
+    /* === removing default button style ===*/
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* button styling */
+  .butrton {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #37FF8B;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .buttron:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+}
+.parent {
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+  }
+  
+  .card {
+    padding-top: 50px;
+    /* border-radius: 10px; */
+    border: 3px solid rgb(255, 255, 255);
+    transform-style: preserve-3d;
+    background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
+        repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#ffffff 0 18.75%);
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+    background-color: #f0f0f0;
+    width: 100%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
+  
+  .content-box {
+    background: rgba(4, 193, 250, 0.732);
+    /* border-radius: 10px 100px 10px 10px; */
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+  }
+  
+  .content-box .card-title {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box .card-title:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box .card-content {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box .card-content:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box .see-more {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: rgb(7, 185, 255);
+    /* border-radius: 5px; */
+    background: white;
+    padding: 0.5rem 0.7rem;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box .see-more:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .date-box {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: 1px solid rgb(7, 185, 255);
+    /* border-radius: 10px; */
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+ 
+  
+
+
+  /*otro card especial*/
+  /*
+  .card {
+    max-width: 300px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+  }
+  
+  .card a {
+    text-decoration: none
+  }
+  
+  .content {
+    padding: 1.1rem;
+  }
+  
+  .image {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(239, 205, 255);
+  }
+  
+  .title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: #2563EB;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }
+*/
+  /*card especial otra*/
+  .card {
+    width: 190px;
+    height: 254px;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .card-inner {
+    width: inherit;
+    height: inherit;
+    background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+  }
+  
+  .card:hover {
+    transform: scale(1.04) rotate(1deg);
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#b0e633, #53ef7d);
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+  }
+  
+  .circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+  }
+  
+  .circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+  }
+  
+  @keyframes move-up6 {
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes move-down1 {
+    to {
+      transform: translateY(10px);
+    }
+  }
+
+/*otros*/
+.align-self-baseline{
+    align-self: baseline;
+}
+
+
+
+/*
+*********************************************************         *******************************
+                                                       LAYOUT
+
+
+
+*************************************************************************************************                                                       
+*/
+/*
+**********************************************************************
+                                contenedores
+**********************************************************************
+*/
+:root{
+    --ancho-contenedor: 1200px;
+}
+.container {
+	max-width: 90%;
+	width: var(--ancho-contenedor);
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.container-anch {
+	width: 100%;
+	padding: 0 40px;
+	margin: 20px auto;
+}
+
+/*
+*********************************************************         *******************************
+                                                       COMPONENTES
+
+
+
+*************************************************************************************************                                                       
+*/
+/*
+**********************************************************************
+                                alertas
+**********************************************************************
+*/
+/*
+[colores]:{
+
+    color-primary
+    color-second
+    color-third
+    color-verd
+    color-violet
+    color-white
+    color-red
+    color-grid
+    color-black
+    color-orange
+    color-blue
+    color-blueviolet
+
+}*/
+:root{
+    /*colores*/
+    --color-primary:rgb(0, 248, 248);
+    --color-second:rgba(201, 205, 201, 0.855);
+    --color-third:rgb(205, 255, 7);
+    --color-verd:rgb(5, 254, 5);
+    --color-violet:rgb(245, 9, 245);
+    --color-white:white;
+    --color-red:rgb(255, 0, 0);
+    --color-grid:rgb(121, 122, 121);
+    --color-black:black;
+    --color-orange:orange;
+    --color-blue:blue;
+    --color-blueviolet:rgb(125, 8, 234);
+}
+/*primeras alertas con el color normal*/
+.alert-color-primary{
+    color:var( --color-primary);
+
+}
+
+.alert-color-second{
+    color:var(--color-second);
+
+}
+
+.alert-color-third{
+    color:var(--color-third);
+
+}
+
+.alert-color-verd{
+    color:var(--color-verd);
+
+}
+
+.alert-color-violet{
+    color:var(--color-violet);
+
+}
+
+.alert-color-white{
+    color:var(--color-white);
+
+}
+
+.alert-color-red{
+    color: var(--color-red);
+
+}
+
+.alert-color-grid{
+    color:var( --color-grid);
+
+}
+
+
+.alert-color-black{
+    color: var(--color-black);
+
+}
+
+
+.alert-color-blue{
+    color: var(--color-blue);
+
+}
+
+
+.alert-color-orange{
+    color: var(--color-orange);
+
+}
+
+
+.alert-color-blueviolet{
+    color:var(--color-blueviolet);
+
+}
+:root{
+    /*colores*/
+    --color-primary:rgb(0, 248, 248);
+    --color-second:rgba(201, 205, 201, 0.855);
+    --color-third:rgb(205, 255, 7);
+    --color-verd:rgb(5, 254, 5);
+    --color-violet:rgb(245, 9, 245);
+    --color-white:white;
+    --color-red:rgb(255, 0, 0);
+    --color-grid:rgb(121, 122, 121);
+    --color-black:black;
+    --color-orange:orange;
+    --color-blue:blue;
+    --color-blueviolet:rgb(125, 8, 234);
+}
+
+/*botones*/
+.boton-compl-towq-primary{
+    border:none;
+    cursor:point;
+    border-radius:5px;
+    color:white;
+    margin:4px;
+    padding:4px;
+    background-color:var(--color-primary);
+
+}
+.boton-compl-towq-primary:hover{
+    background-color:rgba(0, 248, 248, 0.775);
+}
+/*boton difuminado*/
+.boton-espei {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    transition: all 1.5s ease;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    padding: 0;
+   }
+   
+   .boton-espei .tes-span-espei {
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    background: #ffffff10;
+    backdrop-filter: blur(20px);
+    transition: 0.4s ease-in-out;
+    transition-property: color;
+    height: 100%;
+    width: 100%;
+   }
+   
+   .boton-espei .tes-span-espei:hover {
+    backdrop-filter: blur(0px);
+    color: #ffffff;
+   }
+
+/*los fondos*/
+.background-color-primary{
+    background-color:var(--color-primary);
+}
+
+.background-color-second{
+    background-color:var(--color-second);
+}
+
+.background-color-third{
+    background-color:var(--color-third);
+}
+
+
+.background-color-verd{
+    background-color:var(--color-verd);
+}
+
+
+.background-color-violet{
+    background-color:var(--color-violet);
+}
+
+
+.background-color-white{
+    background-color:var(--color-white);
+}
+
+
+.background-color-red{
+    background-color:var(--color-red);
+}
+
+.background-color-grid{
+    background-color:var(--color-grid);
+}
+
+
+.background-color-black{
+    background-color:var(--color-black);
+}
+
+.background-color-orange{
+    background-color:var(--color-orange);
+}
+
+
+.background-color-blue{
+    background-color:var(--color-blue);
+}
+
+
+.background-color-blueviolet{
+    background-color:var(--color-blueviolet);
+}
+
+/*
+*********************************************************         *******************************
+                                                       FORMULARIOS
+
+
+
+*************************************************************************************************                                                       
+*/
+
+/*border-radius*/
+/* Clases para border-radius */
+.border-radius-1px {
+    border-radius: 1px;
+}
+
+.border-radius-2px {
+    border-radius: 2px;
+}
+
+/* Continúa añadiendo clases de border-radius de uno en uno hasta border-radius-100px */
+.border-radius-3px {
+    border-radius: 3px;
+}
+
+.border-radius-4px {
+    border-radius: 4px;
+}
+
+.border-radius-5px {
+    border-radius: 5px;
+}
+
+/* Continúa añadiendo clases de border-radius de uno en uno hasta border-radius-100px */
+.border-radius-6px {
+    border-radius: 6px;
+}
+
+.border-radius-7px {
+    border-radius: 7px;
+}
+
+.border-radius-8px {
+    border-radius: 8px;
+}
+
+/* Continúa añadiendo clases de border-radius de uno en uno hasta border-radius-100px */
+.border-radius-9px {
+    border-radius: 9px;
+}
+
+.border-radius-10px {
+    border-radius: 10px;
+}
+
+/* Continúa añadiendo clases de border-radius de uno en uno hasta border-radius-100px */
+/* y así sucesivamente hasta border-radius-100px */
+.border-radius-100px {
+    border-radius: 100px;
+}
